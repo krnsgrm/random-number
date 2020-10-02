@@ -6,7 +6,7 @@ class Functions
     private string $path;
     private array $array = [];
 
-    public function __construct($path)
+    public function __construct(string $path)
     {
         $this->path = $path;
     }
